@@ -5,6 +5,7 @@
 automatic "printf" style debugging for vim.  
 each new call returns a unique line with incrementing chars. eg "aaa", "bbb", "ccc".  
 
+it also leaves the print statements in a format where it's easy to add some variable interpolation.  
 
 this plugin is only for extreme professionals 😎
 
