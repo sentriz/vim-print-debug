@@ -10,10 +10,12 @@ endif
 
 if !exists("g:print_debug_templates")
     let g:print_debug_templates = {
-    \   'go':         'fmt.Printf("+++ {}\n")',
-    \   'python':     'print(f"+++ {}")',
-    \   'javascript': 'console.log(`+++ {}`);',
-    \   'c':          'printf("+++ {}\n");',
+    \   'go':              'fmt.Printf("+++ {}\n")',
+    \   'python':          'print(f"+++ {}")',
+    \   'javascript':      'console.log(`+++ {}`);',
+    \   'typescript':      'console.log(`+++ {}`);',
+    \   'typescriptreact': 'console.log(`+++ {}`);',
+    \   'c':               'printf("+++ {}\n");',
     \ }
 endif
 
