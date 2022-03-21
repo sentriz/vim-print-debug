@@ -16,6 +16,8 @@ if !exists("g:print_debug_templates")
     \   'typescript':      'console.log(`+++ {}`);',
     \   'typescriptreact': 'console.log(`+++ {}`);',
     \   'c':               'printf("+++ {}\n");',
+    \   'fish':            'echo "+++ {}"',
+    \   'sh':              'echo "+++ {}"',
     \ }
 endif
 
